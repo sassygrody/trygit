@@ -1,13 +1,14 @@
 body {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Lusitana', sans-serif ;
 	color: #faf3bc;
-	background: #420600 url('img/bg-texture.jpg') repeat;
+	background: #000000 repeat;
 }
 
 a {
 	color: #4fb69f;
 	text-decoration: none;
 }
+
 
 h1 {
 	font-size: 1.750em;
@@ -85,6 +86,7 @@ ul.nav {
 ul.nav li {
 	float: left;
 	margin-right: 40px;
+	font-size: 1.00em;
 }
 
 ul.nav li.last {
@@ -125,7 +127,7 @@ ul.nav li a {
 	border: 8px solid #faf3bc;
 }
 
-#featured-cupcake img {
+#featured-gif img {
 	border: 8px solid #faf3bc;
 }
 
