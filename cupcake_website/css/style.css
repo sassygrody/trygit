@@ -28,9 +28,10 @@ h3 {
 	color: #ed6c85;
 }
 
+
 .btn {
-	padding: 15px 30px;
-	margin: 40px 0;
+	padding: 30px 30px;
+	margin: 50px 0 40px 0;
 	color: #faf3bc;
 	background: #4fb69f url('img/texture.png') no-repeat right top;
 	border-radius: 25px;
@@ -78,18 +79,19 @@ btn:hover {
 
 ul.nav {
 	margin: 0 auto;
-	padding: 120px 0 0 0;
+	padding: 20px 0 0 0;
 	list-style: none;
-	float: right;
+	float: right
 }
 
 ul.nav li {
 	float: left;
 	margin-right: 40px;
 	font-size: 1.00em;
+	text-decoration: underline;
 }
 
-ul.nav li.last {
+/*ul.nav li.last {
 	margin: 0;
 	padding: 10px 25px;
 	color: #faf3bc;
@@ -101,7 +103,7 @@ ul.nav li.last {
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
-	text-transform: uppercase;
+	text-transform: uppercase;*/
 }
 
 ul.nav li.last:hover {
@@ -114,12 +116,27 @@ ul.nav li a {
 	text-decoration: none;
 }
 
+.copyright {
+	border-top: 8px solid #2a0400;
+	padding: 10px 0;
+	margin: 15px 0;
+	text-align: center;
+}
+
+#header {
+	text-align: center;
+	margin-top: 70px;
+	font-size: 1.750em;
+	font-weight: 100;
+	letter-spacing: -1.5px;
+}
+
 #intro {
 	margin: 50px 0 75px 0;
 }
 
 #new-cupcakes img {
-	border: 8px solid #faf3bc;
+	border: 8px solid #64A8D1;
 	margin: 0 0 20px 0;
 }
 
@@ -128,7 +145,7 @@ ul.nav li a {
 }
 
 #featured-gif img {
-	border: 8px solid #faf3bc;
+	border: 8px solid #3d9ad1;
 }
 
 #contact span{
@@ -136,9 +153,11 @@ ul.nav li a {
 	font-weight: 600;
 }
 
-#copyright {
-	border-top: 8px solid #2a0400;
-	padding: 10px 0;
-	margin: 15px 0;
+
+#goodbye {
+	margin-top: 80px;
+	margin-bottom: 100px;
 	text-align: center;
+	border: 8px solid #faf3bc;
+	border-radius: 500px;
 }
