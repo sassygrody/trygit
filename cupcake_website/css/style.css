@@ -5,8 +5,9 @@ body {
 }
 
 a {
-	color: #4fb69f;
+	color: #CB0077;
 	text-decoration: none;
+	font-family: 'Lobster', cursive;
 }
 
 
@@ -19,7 +20,7 @@ h1 {
 h2 {
 	font-weight: 100;
 	font-size: 1.500em;
-	color: #b4c34f;
+	color: #6C6CCB;
 }
 
 h3 {
@@ -30,18 +31,19 @@ h3 {
 
 
 .btn {
-	padding: 30px 30px;
+	padding: 10px 30px;
 	margin: 50px 0 40px 0;
 	color: #faf3bc;
-	background: #4fb69f url('img/texture.png') no-repeat right top;
+	background: #ECB86A no-repeat right top;
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
 	text-transform: uppercase;
+	font-family: 'Lusitana', sans-serif;
 }
 
-btn:hover {
-	background-color: #4cc4a7;
+.btn:hover {
+	background-color: #8D6A00;
 }
 
 
@@ -50,16 +52,17 @@ btn:hover {
 	margin: 50px 0;
 	color: #faf3bc;
 	font-size: .75em;
-	background: #b22316 url('texture.png') no-repeat right bottom;
+	background: #DA629B no-repeat right bottom;
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
 	text-transform: uppercase;
+	font-family: 'Lusitana', sans-serif;
 }
 
 .btn-small:hover {
 	
-	background-color: #c62718;
+	background-color: #DA3684;
 }
 
 .submit-btn {
@@ -79,7 +82,7 @@ btn:hover {
 
 ul.nav {
 	margin: 0 auto;
-	padding: 20px 0 0 0;
+	padding: 10px 0 0 0;
 	list-style: none;
 	float: right
 }
@@ -89,6 +92,7 @@ ul.nav li {
 	margin-right: 40px;
 	font-size: 1.00em;
 	text-decoration: underline;
+
 }
 
 /*ul.nav li.last {
@@ -114,6 +118,7 @@ ul.nav li a {
 	color: #faf3bc;
 	display: block;
 	text-decoration: none;
+	font-family: 'Lusitana', sans-serif;
 }
 
 .copyright {
@@ -125,11 +130,13 @@ ul.nav li a {
 
 #header {
 	text-align: center;
-	margin-top: 70px;
+	margin-top: 50px;
 	font-size: 1.750em;
 	font-weight: 100;
 	letter-spacing: -1.5px;
+	background-color: #1c1e17
 }
+
 
 #intro {
 	margin: 50px 0 75px 0;
@@ -153,11 +160,24 @@ ul.nav li a {
 	font-weight: 600;
 }
 
-
-#goodbye {
-	margin-top: 80px;
-	margin-bottom: 100px;
-	text-align: center;
+#goodbye img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-top: 40px;
+	margin-bottom: 100px;*/
+	/*text-align: center;*/
 	border: 8px solid #faf3bc;
-	border-radius: 500px;
+	border-radius: 90px;
+
 }
+
+#bean img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 8px solid #3d9ad1;
+
+}
+
+
