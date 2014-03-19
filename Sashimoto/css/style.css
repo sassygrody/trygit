@@ -32,7 +32,7 @@ h3 {
 
 .btn {
 	padding: 10px 30px;
-	margin: 50px 0 40px 0;
+	margin: 70px 0 70px 0;
 	color: #faf3bc;
 	background: #ECB86A no-repeat right top;
 	border-radius: 25px;
@@ -139,7 +139,8 @@ ul.nav li a {
 
 
 #intro {
-	margin: 50px 0 75px 0;
+	margin: 40px 0 45px 0;
+	text-align: center;
 }
 
 #new-cupcakes img {
@@ -177,7 +178,10 @@ ul.nav li a {
 	margin-left: auto;
 	margin-right: auto;
 	border: 8px solid #3d9ad1;
-
+}
+#bean a {
+	font-size: 30px;
+	text-decoration: underline;
 }
 
 
